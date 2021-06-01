@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.background-calculadora {
+    background-color: gold;
+    width: 400px;
+    height: 300px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.calculadora-wraper {
+    display: flex;
+    width: 100%;
+}
+
+.vazio {
+    display: inline-block;
+    width: 33.3%;
+    background: black;
+    color: white;
+    height: calc(300px / 4);
+    text-align: center;
+    padding-top: 15px ;
+    border: 1px solid #ccc;
+}
+
+.numero {
+    cursor: pointer;
+    display: inline-block;
+    width: 33.3%;
+    background: black;
+    color: white;
+    height: calc(300px / 4);
+    text-align: center;
+    padding-top: 15px ;
+    border: 1px solid #ccc;
+}
+
+.numero:hover{
+    transition: 0.5s;
+    background-color: #ccc;
+    width: 33.4%;
+}
